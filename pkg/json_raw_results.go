@@ -63,7 +63,7 @@ type jsonBranchProtectionSettings struct {
 	RequiresLinearHistory               *bool    `json:"requiredLinearHistory"`
 	DismissesStaleReviews               *bool    `json:"dismissesStaleReviews"`
 	EnforcesAdmins                      *bool    `json:"enforcesAdmin"`
-	RequiresStatusChecks                *bool    `json:"requiresStatuChecks"`
+	RequiresStatusChecks                *bool    `json:"requiresStatusChecks"`
 	RequiresUpToDateBranchBeforeMerging *bool    `json:"requiresUpdatedBranchesToMerge"`
 	StatusCheckContexts                 []string `json:"statusChecksContexts"`
 }
