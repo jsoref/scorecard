@@ -189,7 +189,7 @@ func TestIsBranchProtected(t *testing.T) {
 			name: "Admin run with all tier 2 requirements except require PRs and reviewers",
 			expected: scut.TestReturn{
 				Error:         nil,
-				Score:         4, // Should be 4.2 if we allow decimal puctuation
+				Score:         4, // Should be 4.2 if we allow decimal punctuation
 				NumberOfWarn:  2,
 				NumberOfInfo:  6,
 				NumberOfDebug: 1,

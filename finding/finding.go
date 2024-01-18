@@ -107,7 +107,7 @@ type Finding struct {
 	Values      map[string]int     `json:"values,omitempty"`
 }
 
-// AnonymousFinding is a finding without a corerpsonding probe ID.
+// AnonymousFinding is a finding without a corresponding probe ID.
 type AnonymousFinding struct {
 	Finding
 	// Remove the probe ID from
@@ -147,7 +147,7 @@ func New(loc embed.FS, probeID string) (*Finding, error) {
 	return f, nil
 }
 
-// NewWith create a finding with the desried location and outcome.
+// NewWith create a finding with the desired location and outcome.
 func NewWith(efs embed.FS, probeID, text string, loc *Location,
 	o Outcome,
 ) (*Finding, error) {
