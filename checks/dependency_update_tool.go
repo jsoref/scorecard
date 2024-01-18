@@ -23,7 +23,7 @@ import (
 	"github.com/ossf/scorecard/v4/probes/zrunner"
 )
 
-// CheckDependencyUpdateTool is the exported name for Automatic-Depdendency-Update.
+// CheckDependencyUpdateTool is the exported name for Automatic-Dependency-Update.
 const CheckDependencyUpdateTool = "Dependency-Update-Tool"
 
 //nolint:gochecknoinits
