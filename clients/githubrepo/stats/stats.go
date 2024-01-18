@@ -35,7 +35,7 @@ var (
 	// GithubTokens tracks the usage/remaining stats per token per resource-type.
 	GithubTokens = view.View{
 		Name:        "GithubTokens",
-		Description: "Token usage/remaining stats for Github API tokens",
+		Description: "Token usage/remaining stats for GitHub API tokens",
 		Measure:     RemainingTokens,
 		TagKeys:     []tag.Key{TokenIndex, ResourceType},
 		Aggregation: view.LastValue(),
